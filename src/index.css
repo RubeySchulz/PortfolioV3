@@ -4,9 +4,10 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --primary: rgb(35, 44, 17);
+  --secondary: rgb(197, 133, 143);
+  --tertiary: rgb(164, 162, 155);
+  --fourth: rgb(185, 168, 166);
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -106,10 +107,15 @@ header a {
 }
 
 footer {
-  background-color: var(--light);
+  background-color: var(--primary);
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+
+.footer-img {
+  height: 50px;
+  width: 50px;
 }
 
 .flex-center {
@@ -319,4 +325,38 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: var(--fourth);
+}
+
+.project {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.project-logo {
+  width: 50px;
+  height: auto;
+}
+
+.project-title {
+  font-size: 120%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
