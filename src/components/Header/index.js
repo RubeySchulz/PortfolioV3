@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigation from '../Navigation';
 
-function Header({setNavSelected}) {
+function Header({navSelected, setNavSelected}) {
 
     return (
         <header className="flex-row px-2">
             <h1>Ruben Schulz</h1>
-            <Navigation setNavSelected={setNavSelected}></Navigation>
+            <Navigation navSelected={navSelected} setNavSelected={setNavSelected}></Navigation>
         </header>
     )
 }

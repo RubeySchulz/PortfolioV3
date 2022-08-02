@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className='containing-div'>
-      <Header setNavSelected={setNavSelected}></Header>
+      <Header navSelected={navSelected} setNavSelected={setNavSelected}></Header>
       <main>
         {navSelected === 'AboutMe' && (
           <AboutMe></AboutMe>
