@@ -329,6 +329,10 @@ a {
   color: var(--secondary);
 }
 
+.aboutme-img {
+  width: 40%;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -398,6 +402,10 @@ a {
     margin-left: 1vw;
     margin-right: 1vw;
   }
+
+  .aboutme-img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -413,6 +421,10 @@ a {
   li.mx-2 {
     width: auto;
   }
+
+  .aboutme-img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -423,5 +435,9 @@ a {
 
   li.mx-2 {
     width: auto;
+  }
+
+  .aboutme-img {
+    width: 40%;
   }
 }
