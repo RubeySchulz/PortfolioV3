@@ -38,7 +38,8 @@ function Portfolio() {
 
     return (
         <section>
-            <div className='flexrow my-2'>
+            <h2>Stuff I've Created</h2>
+            <div className='flex-row my-2'>
                 {projects.map((project, i) => (
                     <Project name={project.name} link={project.link} github={project.github} i={i}></Project>
                 ))}

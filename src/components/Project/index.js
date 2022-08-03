@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project({name, link, github, i}) {
     return (
-        <div className='project'>
+        <div className='project my-2'>
             <img className='project-img' src={require(`../../assets/${i}.PNG`)} alt='project'></img>
             <div className='overlay'>
                 <div className='flex-row flex-end my-1 mx-1'>
