@@ -409,11 +409,19 @@ a {
   .project-title {
     font-size: 150%;
   }
+
+  li.mx-2 {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 1080px) {
   .project {
     width: 45%;
     margin: 0 10px;
+  }
+
+  li.mx-2 {
+    width: auto;
   }
 }
