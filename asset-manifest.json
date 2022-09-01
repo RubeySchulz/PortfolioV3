@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/PortfolioV3/static/css/main.162f628f.css",
-    "main.js": "/PortfolioV3/static/js/main.a02b0f46.js",
+    "main.js": "/PortfolioV3/static/js/main.196faef4.js",
     "static/js/787.6388ec90.chunk.js": "/PortfolioV3/static/js/787.6388ec90.chunk.js",
     "static/media/5.PNG": "/PortfolioV3/static/media/5.ba6a1f801588f23d6209.PNG",
     "static/media/4.PNG": "/PortfolioV3/static/media/4.6ebd173bb031055f6870.PNG",
     "static/media/1.PNG": "/PortfolioV3/static/media/1.03d0d9fb8ffb322d6449.PNG",
-    "static/media/2.PNG": "/PortfolioV3/static/media/2.4db51cedd6af9da55c14.PNG",
     "static/media/ruben.jpg": "/PortfolioV3/static/media/ruben.58dc3c2ed80ab57c8c04.jpg",
-    "static/media/0.PNG": "/PortfolioV3/static/media/0.50a2aef028fb5e7e8d13.PNG",
+    "static/media/2.PNG": "/PortfolioV3/static/media/2.de9422a4b648dcf5361b.PNG",
+    "static/media/0.PNG": "/PortfolioV3/static/media/0.f8cb2153b152622ef101.PNG",
     "static/media/3.PNG": "/PortfolioV3/static/media/3.27a0cf7e0675b537253d.PNG",
     "static/media/twitter-logo.png": "/PortfolioV3/static/media/twitter-logo.1c5b0d6ecfc686f8a7b3.png",
     "static/media/github_logo.png": "/PortfolioV3/static/media/github_logo.8e0be2013cff6aa3488f.png",
     "static/media/linkedin-logo.png": "/PortfolioV3/static/media/linkedin-logo.9a1a7f8162140e296345.png",
     "index.html": "/PortfolioV3/index.html",
     "main.162f628f.css.map": "/PortfolioV3/static/css/main.162f628f.css.map",
-    "main.a02b0f46.js.map": "/PortfolioV3/static/js/main.a02b0f46.js.map",
+    "main.196faef4.js.map": "/PortfolioV3/static/js/main.196faef4.js.map",
     "787.6388ec90.chunk.js.map": "/PortfolioV3/static/js/787.6388ec90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.162f628f.css",
-    "static/js/main.a02b0f46.js"
+    "static/js/main.196faef4.js"
   ]
 }
