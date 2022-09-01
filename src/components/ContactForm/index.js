@@ -37,7 +37,9 @@ function ContactForm() {
 
     return (
         <section>
-            <h1 data-testid="contact">Contact me</h1>
+            <h1 data-testid="contact">Contact me :: connor.j.schulz@gmail.com</h1>
+            <h2><a href='https://www.linkedin.com/in/connor-schulz-937a4a22b/'>LinkedIn</a></h2>
+            <h2><a href='https://github.com/RubeySchulz'>Github</a></h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className='my-1'>
                     <label htmlFor='name'>Name:</label>

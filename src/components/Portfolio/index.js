@@ -15,9 +15,9 @@ function Portfolio() {
             github: 'https://github.com/RubeySchulz/Connors-Portfolio'
         },
         {
-            name: 'Zookeepr',
-            link: 'https://evening-cliffs-40309.herokuapp.com/',
-            github: 'https://github.com/RubeySchulz/zookeepr'
+            name: 'Game Quest',
+            link: 'https://game-quest-v01.herokuapp.com/Login',
+            github: 'https://github.com/El-Mariachi760/game-quest'
         },
         {
             name: 'Note Taker',
