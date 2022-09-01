@@ -4,7 +4,7 @@ function Resume() {
     return (
         <section>
             <h1>My incredible lil resume</h1>
-            <a href='/' className='my-2'>Download Resume Here</a>
+            <a href='https://drive.google.com/file/d/1pRugC9S-ByOSkHm8xUuATcRFxaB8eyWW/view?usp=sharing' className='my-2'>Download Resume Here</a>
 
             <div className='resume-content'>
                 <h2>Front End Skills</h2>

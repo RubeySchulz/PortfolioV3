@@ -32,7 +32,8 @@ function ContactForm() {
 
     function handleSubmit(e){
         e.preventDefault();
-        console.log(formState);
+
+        window.open('mailto:connor.j.schulz@gmail.com?subject=' + formState.email + '//' + formState.name +  '&body=' + formState.message);
     }
 
     return (
